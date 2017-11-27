@@ -1,0 +1,307 @@
+/* GENERAL */
+
+body, html {
+    font-family: "Storm Sans", sans-serif;
+    height: 100%;
+    text-align:center;
+    background-color:#000;
+    text-decoration-color: #fff;
+}
+
+main, header {
+    background-color: #000;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.container h2, .container h3 {
+    color: orangered;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.mylist li {
+    color:orangered;
+    padding: 4px;
+}
+
+.container p {
+    color:#fff;
+}
+
+.container h3 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container h2 {
+    padding-top: 70px;
+}
+
+#services h2 {
+    padding-bottom: 30px;
+}
+
+.mylist p {
+    color:#fff;
+}
+
+#chef p {
+    font-size: 18px;
+    padding-top: 55px;
+}
+
+/* TOP-HEADER */
+
+.top-header {
+    background-color: #000;
+}
+
+.top-header-container { 
+    display:flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+}
+
+.top-header ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.top-header a {
+    text-decoration: none;
+    color:#fff;
+}
+.nav .dropdown-menu > li > a:hover {
+    background-color: white;
+}
+.nav .dropdown-menu > li > a{
+    width: 180px;
+}
+.top-header a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.contact-header {
+    display:flex;
+    justify-content:center;
+}
+
+.contact-header ul {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.row-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0px;
+    margin-right: auto;
+}
+
+    
+/* END OF TOP-HEADER */
+
+
+/*TOP NAVIGATOR BAR*/
+
+.topnav {
+    background-color: orangered;
+}
+
+.topnav a {
+    float: left;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: orangered;
+}
+
+.topnav ul {
+    background-color: orangered;
+}
+
+.topnav .nav li a:hover {
+    background-color: white; 
+}
+
+.menu-container .navbar nav {
+    display: flex;
+}
+
+.menu-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+/*END OF TOP NAVIGATOR BAR*/
+
+
+/*SLIDE SHOW*/
+
+#myCarousel {
+    padding: 50px;
+    background-color: #000;
+}
+
+div.carousel-caption {
+    padding-bottom: 250px;
+}
+
+div.carousel-caption h3 {
+    background-color: #fff;
+    opacity: 0.5;
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+}
+
+div.carousel-caption p {
+    background-color: #fff;
+    opacity: 0.5;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+}
+
+div#myCarousel.carousel.slide {
+    padding: 0px;
+}
+
+/*END OF SLIDE SHOW*/
+
+/*FOOTER*/
+
+.features .glyphicon {
+    font-size: 32px;
+}
+
+.footer {
+    background-color:orangered;
+    color:#000;
+}
+
+.footer a {
+    color:#000;
+}
+
+.footer a:hover{
+    color:#fff;
+}
+
+.footer {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.social-footer ul li {
+    display: inline;
+    font-size: 32px;
+    justify-content: space-between;   
+}
+
+#map {
+    height: 200px;
+    width: 100%;
+}
+
+/*END OF FOOTER*/
+
+/*FORM*/
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid orangered;
+    border-radius: 4px;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid orangered;
+    border-radius: 4px;
+}
+
+textarea[type=text] {
+    width: 100%;
+    padding: 50px 80px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid orangered;
+    border-radius: 4px;
+}
+
+button[type=submit] {
+    padding: 20px 20px;
+    margin: 8px 0;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 4px;
+}
+
+#online-reservation {
+    color: orangered;
+}
+
+/*END OF FORM*/
+
+/*TOP BUTTON*/
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer; 
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+#topBtn:hover {
+    background-color: red;
+}
+
+/*END OF TOP BUTTON*/
+
+
+
+
+
+
+
+
